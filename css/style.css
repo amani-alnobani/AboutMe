@@ -7,8 +7,31 @@ p{
     margin: 50px;
     padding: 30px;
   }
+h1{
 
+  height: 30px;
+    margin: 30px;
+    padding: 30px;
+}
+h2{
+
+  
+    margin: 30px;
+    padding: 30px;
+}
+
+
+li{
+
+  background-color: blueviolet;
+  color: aqua;
+  margin: 30px;
+  padding: 30px;
+
+}
   footer{
     background-color: green;
     height: 30px;
+    margin: 30px;
+    padding: 30px;
  }

@@ -1,4 +1,6 @@
 'use strict';
+
+let score = 7
 let user = prompt('what is your name?')
 alert('HELLO '+ user)
 alert('we going to play gussing game, Answer with yes or no. let us start.')
@@ -76,3 +78,61 @@ else if(v5==='no'||v5==='n'){
 else {
     alert('please aswer with yes/y or no/n')
 }
+let index = prompt('try to enter the right number, you have only 4 attempt.') ;
+for (let i = 0; i < 4; i++) {
+    if (index === '5') {
+        alert('correct!')
+        break
+    }
+    else{
+
+        index=prompt('try again!')
+    }
+}
+    alert('the right answer was number 5')
+
+
+
+    let hobbies=['reading','skiing','swimming','fix things'];
+
+    console.log(hobbies.length);
+let t1 = prompt('whats my favourit hobbies?,write down one of them. you have 6 attempt!.');
+for (let i = 0; i < 5; i++) {
+    let score = 0
+    for (let j = 0; j < hobbies.length; j++) {
+         
+        switch (t1) {
+            case 'reading':
+                alert('right')
+                break;
+            case 'skiing':
+                alert('right')
+                break;
+
+            case 'swimming':
+                alert('right')
+                break;
+
+            case 'fix things':
+                alert('right')
+                break;
+
+            default:
+               t1=prompt('try again')
+                break;
+            
+        }
+        
+        break;
+    }
+    
+    if (t1 === 'reading' || t1 === 'skiing' || t1 === 'swimming' || t1 === 'fix things' ) {
+        break;
+    }
+    
+}
+alert('my hobbies are [ reading , skiing , swimming , fix things]')
+
+ alert('you have a score of '+ score+'/7')
+
+
