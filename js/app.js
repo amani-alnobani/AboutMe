@@ -5,7 +5,7 @@ let user = prompt('what is your name?')
 alert('HELLO '+ user)
 alert('we going to play gussing game, Answer with yes or no. let us start.')
 
-
+function question1(){
 let v1= prompt('do you think I am an Engineer?')
 v1=v1.toLowerCase();
 if (v1==='yes'||v1==='y'){
@@ -19,9 +19,11 @@ score++;
 else {
     alert('please aswer with yes/y or no/n')
 }
+}
+question1();
 
 
-
+function question2(){
 let v2= prompt('do you think I am married?')
 v1=v2.toLowerCase();
 if (v2==='yes'||v2==='y'){
@@ -34,7 +36,10 @@ else if(v2==='no'||v2==='n'){
 else {
     alert('please aswer with yes/y or no/n')
 }
+}
+question2();
 
+function question3(){
 let v3 = prompt('do you think I have an baby?')
 v3 =v3.toLowerCase();
 if (v3==='yes'||v3==='y'){
@@ -50,7 +55,8 @@ else {
     alert('please aswer with yes/y or no/n')
 }
 
-
+}
+question3();
 let v4= prompt('do you think that i like reading?')
 v4=v4.toLowerCase();
 if (v4=='yes'||v4==='y'){
