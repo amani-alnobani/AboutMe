@@ -22,10 +22,10 @@ else {
 }
 question1();
 
-
 function question2(){
+
 let v2= prompt('do you think I am married?')
-v1=v2.toLowerCase();
+v2=v2.toLowerCase();
 if (v2==='yes'||v2==='y'){
 alert('that\'s correct')
 score++;
@@ -40,12 +40,14 @@ else {
 question2();
 
 function question3(){
+
 let v3 = prompt('do you think I have an baby?')
 v3 =v3.toLowerCase();
 if (v3==='yes'||v3==='y'){
 alert('that\'s correct')
 score++;
 }
+
 
 else if(v3==='no'||v3==='n'){
     
@@ -57,6 +59,8 @@ else {
 
 }
 question3();
+
+function question4(){
 let v4= prompt('do you think that i like reading?')
 v4=v4.toLowerCase();
 if (v4=='yes'||v4==='y'){
@@ -70,7 +74,10 @@ else if(v4==='no'||v4==='n'){
 else {
     alert('please aswer with yes/y or no/n')
 }
+}
+question4();
 
+function question5(){
 let v5= prompt('would you like to know more about me?')
 
 v5=v5.toLowerCase();
@@ -88,8 +95,10 @@ else if(v5==='no'||v5==='n'){
 else {
     alert('please aswer with yes/y or no/n')}
 
+}
+question5();
 
-
+function question6(){
 let index = prompt('try to enter the right number between 0 to 10, you have only 4 attempt.');
 // let c = 0;
 let rn = 5
@@ -120,6 +129,10 @@ for (let i = 0; i < 4; i++) {
 
     }
 }
+}
+question6();
+
+
 // if (c>4){
 
 // console.log(c);
@@ -155,7 +168,7 @@ for (let i = 0; i < 4; i++) {
 
 
 
-
+function question7(){
 
 
 let trial='';
@@ -185,59 +198,9 @@ for (let j = 0; j <6; j++) {
 
 
 }
-
+}
+question7();
 
 alert(`thank you ${user}, your score is ${score}/7`);
 
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-         
-//         switch (t1) {
-//             case 'reading':
-//                 alert('right')
-//                 break;
-//             case 'skiing':
-//                 alert('right')
-//                 break;
-
-//             case 'swimming':
-//                 alert('right')
-//                 break;
-
-//             case 'fix things':
-//                 alert('right')
-//                 break;
-
-//             default:
-//                t1=prompt('try again')
-//                 break;
-            
-//         }
-        
-//         break;
-//     }
-    
-//     if (t1 === 'reading' || t1 === 'skiing' || t1 === 'swimming' || t1 === 'fix things' ) {
-//         break;
-//     }
-    
-// }
-// alert('my hobbies are [ reading , skiing , swimming , fix things]')
-
-//  alert('you have a score of '+ score+'/7')
-
-
